@@ -20,6 +20,8 @@ import operator
 import math
 import pygraphviz as pgv
 
+
+# this is an example of how to import the Stanford NER Tagger
 NER_tagger = StanfordNERTagger('/home/ignat/Desktop/UCLA/Winter 2018/PIC 16/Final Project/stanford-ner-2018-02-27/classifiers/english.all.3class.distsim.crf.ser.gz',
                        '/home/ignat/Desktop/UCLA/Winter 2018/PIC 16/Final Project/stanford-ner-2018-02-27/stanford-ner.jar',
                        encoding="utf-8")
@@ -64,7 +66,6 @@ def flatten(counts):
     This functions lets us combine the counts of characters and list them
     under partial names
     """
-    
     single_names = {}
     long_names = {}
     for i in range(len(counts.items())):
@@ -197,7 +198,7 @@ def drawGraph(G, novel_title):
     pos = nx.nx_pydot.graphviz_layout(G)
     plt.figure(figsize=(15,10))
 
-    font = {'fontsize'   : 14}
+    font = {'fontsize' : 14}
     plt.title('Character Network for: ' + novel_title, font)
    
     label_pos = {}

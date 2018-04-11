@@ -8,6 +8,7 @@ Final Project: Demonstration
 """
 import FinalNLTKProj as np
 
+# novels used for the demonstration
 books = ['The Adventures of Sherlock Holmes.txt','TheGreatGatsby.txt','1984.txt','BraveNewWorld.txt',
          'Frankenstein.txt','CrimeAndPunishment.txt','Harry Potter 7 - Deathly Hollows.txt']
 
@@ -40,8 +41,10 @@ edge_list = np.edge_maker(novel_sent_tagged, combined_counts)
                     
 # create a graph
 G = np.nx.Graph()
+
 # Add nodes and edges
 G.add_nodes_from([i.title() for i in np.char_full_name(np.top_n(combined_counts, 15))])
 G.add_edges_from([(i.title(), j.title()) for i,j in np.edge_maker(novel_sent_tagged, np.top_n(combined_counts, 15))])
 
+# draw the graph!
 np.drawGraph(G, 'Harry Potter 7 Deathly Hollows')
