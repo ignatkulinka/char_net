@@ -18,3 +18,7 @@ a documented example of how to use the project.
 
 [Project Gutenberg](http://www.gutenberg.org/) is a great source of novels in
 easy to use and convert formats.
+
+### Examples
+
+![Frankenstein character network](examples/NetworkGraph - Frankenstein.png "Frankenstein character network")
