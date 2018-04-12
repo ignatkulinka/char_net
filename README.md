@@ -21,4 +21,10 @@ easy to use and convert formats.
 
 ### Examples
 
-![Frankenstein character network](examples/NetworkGraph - Frankenstein.png "Frankenstein character network")
+<p align="center">
+   <img src="examples/NetworkGraph - Frankenstein.png"> 
+   <br/>
+   <img src="examples/NetworkGraph - Harry Potter.png">
+   <br/>
+   <img src="examples/NetworkGraph - Sherlock Holmes.png"> 
+</p>
