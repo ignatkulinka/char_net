@@ -1,8 +1,8 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-Christina Indudhara/ UID: 204745788
-Ignat Kulinka/ UID: 304845754
+Christina Indudhara
+Ignat Kulinka
 PIC 16
 Professor Ji
 Final Project
